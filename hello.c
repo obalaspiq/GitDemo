@@ -9,6 +9,12 @@ factorial(int n) {
 }
 
 int
+fib(int n) {
+    if (n == 0 || n == 1) return 1;
+    return fib(n - 2) + fib(n - 1);
+}
+
+int
 main(int argc, char **argv) {
 	printf("Hello, World!\n");
 	return 0;
