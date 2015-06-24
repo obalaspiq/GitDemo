@@ -6,5 +6,5 @@ int factorial(int n) {
 }
 
 int main(int argc, char **argv) {
-    printf("Hello, World!\n");
+    printf("Hello, Factorial! %d\n", factorial(12));
 }
