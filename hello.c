@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define SUPER_SECRET_KEY "FIXME"
+
 int
 factorial(int n) {
 	if (n == 0) return 1;
