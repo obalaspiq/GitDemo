@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-int factorial(int n) {
-    if (n == 0) return 1;
-    return n * factorial(n - 1);
+#define SUPER_SECRET_KEY "FIXME"
+
+int
+factorial(int n) {
+	if (n == 0) return 1;
+	return n * factorial(n - 1);
 }
 
 int
